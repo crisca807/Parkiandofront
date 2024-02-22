@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('../assets/fondo.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 60px;
+    margin: 40px auto;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+}
+
+.title-container {
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif; /* Fuente sans-serif */
+    color: #fff; /* Color blanco */
+}
+
+.title-image {
+    background-image: url('../assets/letras.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    margin: 0 auto;
+    margin-left: 8mm;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    color: #ff99cc;
+    font-family: sans-serif; /* Fuente sans-serif */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: RGBA(113, 18, 75);
+    color: #fff;
+    box-shadow: 0 0 10px #000000;
+    font-family: sans-serif; /* Fuente sans-serif */
+}
+
+.forgot-password {
+    margin-bottom: 20px; /* Espacio entre "¿Olvidaste tu contraseña?" y el botón */
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif; /* Fuente sans-serif */
+    font-size: 16px;
+}
+
+.btn {
+    background-color: RGBA(113, 18, 75); /* Mismo morado que las entradas de texto */
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: sans-serif; /* Fuente sans-serif */
+}
