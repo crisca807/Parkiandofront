@@ -1,0 +1,97 @@
+.register-container {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.register-container h1 {
+    color: #6A0DAD; /* Morado */
+    text-align: center;
+}
+
+.register-container table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 1px solid #6A0DAD; /* Morado */
+}
+
+.register-container table th, .register-container table td {
+    padding: 10px;
+    border: 1px solid #6A0DAD; /* Morado */
+    color: #000000; /* Negro */
+}
+
+.register-container table th {
+    background-color: #6A0DAD; /* Morado */
+    color: #FFFFFF; /* Blanco */
+}
+
+.register-container table tr:nth-child(even) {
+    background-color: #F2F2F2; /* Gris claro */
+}
+
+.register-container form {
+    text-align: left;
+}
+
+.register-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #6A0DAD; /* Morado */
+}
+
+.register-container select,
+.register-container input[type="text"],
+.register-container input[type="date"],
+.register-container input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #6A0DAD; /* Morado */
+    border-radius: 5px;
+}
+
+.register-container input[type="submit"] {
+    background-color: #6A0DAD; /* Morado */
+    color: #FFFFFF; /* Blanco */
+    border: none;
+    cursor: pointer;
+}
+
+.register-container input[type="submit"]:hover {
+    background-color: #49247A; /* Morado más oscuro al pasar el mouse */
+}
+
+.register-container h2 {
+    text-align: center;
+    background-color: #6A0DAD;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.register-container p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #6A0DAD;
+}
+
+/* Estilo para el enlace "ir a comentarios" */
+.register-container p a {
+    text-decoration: none;
+    color: #49247A;
+    font-weight: bold;
+}
+
+/* Estilo para el enlace cuando se coloca el mouse sobre él */
+.register-container p a:hover {
+    color: #6A0DAD;
+}

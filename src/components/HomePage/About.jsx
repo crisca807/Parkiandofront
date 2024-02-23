@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/styles.css';
+import '../css/HomePage.css';
 import loguito from '../assets/loguito.png';
 
 const About = () => {

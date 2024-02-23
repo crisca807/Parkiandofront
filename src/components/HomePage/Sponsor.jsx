@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/styles.css';
+import '../css/HomePage.css';
 import parqueoImage from '../assets/parqueo.jpg'; // Importa la imagen correctamente
 
 const Sponsor = () => {
