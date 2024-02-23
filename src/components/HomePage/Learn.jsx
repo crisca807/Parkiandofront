@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/styles.css';
+import '../css/HomePage.css';
 import precioJustoImage from '../assets/preciojusto.png';
 import todoElTiempoImage from '../assets/todoeltiempo.png';
 import seguroImage from '../assets/seguro.png';

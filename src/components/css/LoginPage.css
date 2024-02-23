@@ -1,25 +1,26 @@
-body {
-    font-family: Arial, sans-serif;
-    background: url('../assets/fondo.png') no-repeat center center fixed;
-    background-size: cover;
+body, html {
+    height: 100%;
     margin: 0;
-    padding: 0;
+}
+
+.login-container {
+    font-family: Arial, sans-serif;
+    background-color: #71244B; /* Un tono morado más definido */
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100%;
 }
 
-.container {
+.login-form {
     width: 100%;
-    max-width: 500px;
-    padding: 60px;
-    margin: 40px auto;
-    background-color: #000;
+    max-width: 320px; /* Ajuste para que no sea tan largo */
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparente para contrastar con el fondo */
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     color: #fff;
+    text-align: center;
 }
 
 .title-container {
@@ -28,17 +29,15 @@ body {
 
 h2 {
     text-align: center;
-    font-family: sans-serif; /* Fuente sans-serif */
-    color: #fff; /* Color blanco */
+    font-family: sans-serif;
+    color: #fff;
 }
 
 .title-image {
     background-image: url('../assets/letras.png');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100px;
-    margin: 0 auto;
-    margin-left: 8mm;
+    height: 80px;
     margin-bottom: 20px;
 }
 
@@ -46,41 +45,36 @@ label {
     display: block;
     margin-bottom: 20px;
     color: #ff99cc;
-    font-family: sans-serif; /* Fuente sans-serif */
 }
 
 input[type="text"],
 input[type="password"] {
-    width: 80%;
-    padding: 20px;
-    margin-bottom: 30px;
-    border: 1px solid #ccc;
+    width: calc(100% - 40px);
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
     border-radius: 5px;
-    font-size: 18px;
-    background-color: RGBA(113, 18, 75);
-    color: #fff;
-    box-shadow: 0 0 10px #000000;
-    font-family: sans-serif; /* Fuente sans-serif */
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
 }
 
 .forgot-password {
-    margin-bottom: 20px; /* Espacio entre "¿Olvidaste tu contraseña?" y el botón */
+    margin-bottom: 20px;
 }
 
 .forgot-password a {
     text-decoration: none;
     color: #fff;
-    font-family: sans-serif; /* Fuente sans-serif */
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .btn {
-    background-color: RGBA(113, 18, 75); /* Mismo morado que las entradas de texto */
+    background-color: #ff99cc;
     color: #fff;
-    padding: 20px 40px;
+    padding: 15px 30px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 20px;
-    font-family: sans-serif; /* Fuente sans-serif */
+    font-size: 18px;
 }

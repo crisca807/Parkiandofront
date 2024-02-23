@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../assets/loguito.svg'; // Ajusta la ruta según tu estructura de proyecto
 import menuIcon from '../assets/menu.svg'; // Ajusta la ruta según tu estructura de proyecto
-import '../css/styles.css';
+import '../css/HomePage.css';
 const Header = () => {
   return (
     <header className="hero">

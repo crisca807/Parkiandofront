@@ -2,7 +2,7 @@ import React from 'react';
 import twitterIcon from '../assets/twitter.svg'; // Importa la imagen de Twitter
 import instagramIcon from '../assets/instagram.svg'; // Importa la imagen de Instagram
 import youtubeIcon from '../assets/youtube.svg'; // Importa la imagen de YouTube
-import '../css/styles.css';
+import '../css/HomePage.css';
 
 const Footer = () => {
   return (
